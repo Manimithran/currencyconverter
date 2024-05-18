@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMk1liMqQ06QwzRGWPx1m8oprMxm1SJ6whvFMQnPCyHw&s");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This prevents the background image from scrolling with the page */
+    height: 100vh; 
+    overflow: hidden
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+	background-color:#FFFFFF;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #555555;
+}
+
+input[type="number"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-size: 22px;
+    color: #333333;
+    margin-top: 20px;
+    text-align: center;
+}
+
